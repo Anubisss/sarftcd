@@ -337,7 +337,7 @@ print '<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Simple Account Registrator for TrinityCore Developers</title>
+<title>Simple Account Registrator For TrinityCore Developers</title>
 <script src="html5shiv.js"></script>
 <link href="bootstrap.min.css" rel="stylesheet">
 <style>
@@ -349,7 +349,7 @@ footer {
 <body>
 <div class="container-fluid">
 <div class="page-header">
-<h1>Simple Account Registrator for TrinityCore Developers</h1>
+<h1>Simple Account Registrator For TrinityCore Developers</h1>
 </div>
 <p class="lead"><strong>Realmlist:</strong> <span id="realmlist">'.$CONF_REALMLIST_ADDRESS.'</span> <button class="btn btn-info" id="copy_realmlist">Copy to clipboard</button></p>';
 
