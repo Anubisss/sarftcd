@@ -21,3 +21,5 @@ Screenshots: https://github.com/Anubisss/sarftcd/wiki/Screenshots
       http://www.steamdev.com/zclip/
     - jQuery, used by zClip (addon)
       http://jquery.com/
+    - HTML5 Shiv, HTML5 support for IE < 9
+      https://github.com/aFarkas/html5shiv/

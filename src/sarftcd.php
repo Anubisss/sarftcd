@@ -338,6 +338,7 @@ print '<!DOCTYPE html>
 <head>
 <meta charset="utf-8">
 <title>Simple Account Registrator for TrinityCore Developers</title>
+<script src="html5shiv.js"></script>
 <link href="bootstrap.min.css" rel="stylesheet">
 <style>
 footer {
