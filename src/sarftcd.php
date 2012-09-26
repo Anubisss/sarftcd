@@ -6,7 +6,7 @@ $CONF_MYSQL_HOST = "localhost";
 $CONF_MYSQL_USER = "user"; // user must have SELECT, INSERT INTO grants
 $CONF_MYSQL_PASS = "pass";
 $CONF_MYSQL_DB = "auth"; // TrinityCore auth DB
-$CONF_REALMLIST_ADDRESS = "realmlist"
+$CONF_REALMLIST_ADDRESS = "realmlist";
 
 abstract class DatabaseConnection
 {
@@ -337,7 +337,8 @@ print '<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title></title>
+<title>Simple Acount Registrator for TrinityCore Developers</title>
+<link href="bootstrap.min.css" rel="stylesheet">
 <style>
 footer {
   text-align: center;
