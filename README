@@ -12,7 +12,9 @@ Screenshots: https://github.com/Anubisss/sarftcd/wiki/Screenshots
 ~How to use: Just config it.
              Config is top of the file sarftcd.php
 
-~Tested: PHP 5.2.10-2 & Apache/2.2.12
+~Tested:
+    - PHP 5.2.10-2 & Apache/2.2.12 & TC 9004580ee6af00 (2012.09.27.)
+    - PHP 5.3.10-1 & Apache/2.2.22 & TC 9004580ee6af00 (2012.09.27.)
 
 ~Using:
     - Twitter Bootstrap, for the nice and clear design
