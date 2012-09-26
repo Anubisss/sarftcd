@@ -13,3 +13,11 @@ Screenshots: https://github.com/Anubisss/sarftcd/wiki/Screenshots
              Config is top of the file sarftcd.php
 
 ~Tested: PHP 5.2.10-2 & Apache/2.2.12
+
+~Using:
+    - Twitter Bootstrap, for the nice and clear design
+      http://twitter.github.com/bootstrap/
+    - zClip (jQuery ZeroClipboard), for copy-to-clipboard support
+      http://www.steamdev.com/zclip/
+    - jQuery, used by zClip (addon)
+      http://jquery.com/

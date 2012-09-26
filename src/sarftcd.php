@@ -350,7 +350,7 @@ footer {
 <div class="page-header">
 <h1>Simple Account Registrator for TrinityCore Developers</h1>
 </div>
-<p class="lead"><strong>Realmlist:</strong> '.$CONF_REALMLIST_ADDRESS.'</p>';
+<p class="lead"><strong>Realmlist:</strong> <span id="realmlist">'.$CONF_REALMLIST_ADDRESS.'</span> <button class="btn btn-info" id="copy_realmlist">Copy to clipboard</button></p>';
 
 $inputUsernameError = "";
 $inputPasswordError = "";
@@ -455,6 +455,17 @@ print('<form class="form-horizontal" method="post" action="'.$_SERVER["PHP_SELF"
 <p><small>The <a href="https://github.com/Anubisss/sarftcd" target="_blank" title="Simple Account Registrator For TrinityCore Developers">SARFTCD</a> is distributed under the <a href="http://www.gnu.org/licenses/gpl-3.0.html" target="_blank">GNU GPLv3</a> license.</small></p>
 </footer>
 </div>
+<script src="jquery-1.8.2.min.js"></script>
+<script src="jquery.zclip.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("#copy_realmlist").zclip({
+        path: "ZeroClipboard.swf",
+        copy: $("#realmlist").text(),
+        afterCopy: function(){}
+    });
+});
+</script>
 </body>
 </html>');
 
