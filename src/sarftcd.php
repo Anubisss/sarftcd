@@ -337,7 +337,7 @@ print '<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Simple Acount Registrator for TrinityCore Developers</title>
+<title>Simple Account Registrator for TrinityCore Developers</title>
 <link href="bootstrap.min.css" rel="stylesheet">
 <style>
 footer {
@@ -348,7 +348,7 @@ footer {
 <body>
 <div class="container-fluid">
 <div class="page-header">
-<h1>Simple Acount Registrator for TrinityCore Developers</h1>
+<h1>Simple Account Registrator for TrinityCore Developers</h1>
 </div>
 <p class="lead"><strong>Realmlist:</strong> '.$CONF_REALMLIST_ADDRESS.'</p>';
 
@@ -452,7 +452,7 @@ print('<form class="form-horizontal" method="post" action="'.$_SERVER["PHP_SELF"
 </form>
 <hr>
 <footer>
-<p><small>The <a href="https://github.com/Anubisss/sarftcd" target="_blank" title="Simple Acount Registrator For TrinityCore Developers">SARFTCD</a> is distributed under the <a href="http://www.gnu.org/licenses/gpl-3.0.html" target="_blank">GNU GPLv3</a> license.</small></p>
+<p><small>The <a href="https://github.com/Anubisss/sarftcd" target="_blank" title="Simple Account Registrator For TrinityCore Developers">SARFTCD</a> is distributed under the <a href="http://www.gnu.org/licenses/gpl-3.0.html" target="_blank">GNU GPLv3</a> license.</small></p>
 </footer>
 </div>
 </body>
