@@ -186,7 +186,7 @@ class Account
     {
         $usr = strtoupper($this->username);
         $pass = strtoupper($this->password);
-        $str = "$usr" + ":" + "$pass";
+        $str = "$usr:$pass";
         return sha1($str);
     }
 }
