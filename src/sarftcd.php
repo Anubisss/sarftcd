@@ -431,7 +431,6 @@ print('<form class="form-horizontal" method="post" action="'.$_SERVER["PHP_SELF"
 <option value="0">Classic</option>
 <option value="1">The Burning Crusade</option>
 <option value="2">Wrath of The Lich King</option>
-<option value="3">Cataclysm</option>
 </select>
 </div>
 </div>
@@ -443,7 +442,6 @@ print('<form class="form-horizontal" method="post" action="'.$_SERVER["PHP_SELF"
 <option value="1">1 - Moderator</option>
 <option value="2">2 - GameMaster</option>
 <option value="3">3 - Administrator</option>
-<option value="4">4 - Anyad</option>
 </select>
 </div>
 </div>
