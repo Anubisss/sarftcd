@@ -1,0 +1,12 @@
+===============================================================================
+|                                   SARFTCD                                   |
+|              Simple Acount Registrator For TrinityCore Developers           |
+===============================================================================
+
+~License: GNU GPLv3
+          See file COPYING or http://www.gnu.org/licenses/gpl-3.0.html
+
+~How to use: Just config it.
+             Config is top of the file sarftcd.php
+
+~Tested: PHP 5.2.10-2 & Apache/2.2.12
